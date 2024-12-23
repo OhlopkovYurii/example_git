@@ -1,0 +1,8 @@
+﻿  CarClass2.cpp
+D:\студенчество\3 семестр\ООП\CarClass\CarClass2\CarClass2\CarClass2.cpp(101,14): warning C4244: =: преобразование "time_t" в "int", возможна потеря данных
+D:\студенчество\3 семестр\ООП\CarClass\CarClass2\CarClass2\CarClass2.cpp(180,12): warning C4244: return: преобразование "unsigned __int64" в "long", возможна потеря данных
+D:\студенчество\3 семестр\ООП\CarClass\CarClass2\CarClass2\CarClass2.cpp(258,23): warning C4305: аргумент: усечение из "__int64" в "unsigned int"
+D:\студенчество\3 семестр\ООП\CarClass\CarClass2\CarClass2\CarClass2.cpp(258,23): warning C4309: аргумент: усечение константного значения
+  CarClass2.vcxproj -> D:\студенчество\3 семестр\ООП\CarClass\CarClass2\CarClass2\x64\Debug\CarClass2.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
