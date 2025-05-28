@@ -1,0 +1,8 @@
+﻿  analysis.cpp
+D:\студенчество\4 семестр\САОД\analysis\analysis\analysis.cpp(26,19): warning C4305: инициализация: усечение из "double" в "float"
+D:\студенчество\4 семестр\САОД\analysis\analysis\analysis.cpp(26,26): warning C4305: инициализация: усечение из "double" в "float"
+  main.cpp
+  Создание кода...
+  analysis.vcxproj -> D:\студенчество\4 семестр\САОД\analysis\analysis\x64\Debug\analysis.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
