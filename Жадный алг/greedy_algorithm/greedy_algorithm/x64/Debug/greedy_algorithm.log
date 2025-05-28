@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\студенчество\4 семестр\САОД\Жадный алг\greedy_algorithm\main.cpp(30,39): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\студенчество\4 семестр\САОД\Жадный алг\greedy_algorithm\main.cpp(39,37): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  greedy_algorithm.vcxproj -> D:\студенчество\4 семестр\САОД\Жадный алг\greedy_algorithm\x64\Debug\greedy_algorithm.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
