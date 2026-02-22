@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="468.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.AutoController">
+   <children>
+      <Button id="Button_calc" fx:id="ButtonCalc" layoutX="23.0" layoutY="386.0" mnemonicParsing="false" onAction="#onButtonCalc" prefHeight="40.0" prefWidth="251.0" text="Собрать данные">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label id="Label_title" layoutX="23.0" layoutY="14.0" text="Класс Автомобиль">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="82.0" text="Количество владельцев">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="126.0" text="Пробег">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="160.0" text="Цена">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="196.0" text="Год сборки">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="228.0" text="Трансмиссия">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="262.0" text="Расход топлива">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="301.0" text="Руль">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Edit_num_owner" layoutX="274.0" layoutY="85.0" promptText="5" />
+      <TextField id="Ed" fx:id="edit_mile_age" layoutX="274.0" layoutY="124.0" promptText="10000" />
+      <TextField fx:id="edit_price" layoutX="274.0" layoutY="163.0" promptText="1000000" />
+      <TextField fx:id="edit_year_build" layoutX="274.0" layoutY="199.0" promptText="2010" />
+      <TextField fx:id="edit_consumption" layoutX="274.0" layoutY="265.0" promptText="12" />
+      <Label layoutX="439.0" layoutY="51.0" text="Параметры автомобиля:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="area_parameters" layoutX="437.0" layoutY="84.0" prefHeight="250.0" prefWidth="230.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <Label id="Label_message_error" fx:id="Label_message_error" layoutX="14.0" layoutY="426.0" prefHeight="31.0" prefWidth="295.0" text="Данные введены некорректно" textFill="#a16464" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edit_transmission" layoutX="275.0" layoutY="231.0" promptText="механика/автомат/робот" />
+      <TextField fx:id="edit_handlebar" layoutX="275.0" layoutY="304.0" promptText="левый/правый/-" />
+      <Button fx:id="button_exit" layoutX="659.0" layoutY="422.0" mnemonicParsing="false" onAction="#onButtonExit" prefHeight="40.0" prefWidth="110.0" text="Выход" />
+      <Button fx:id="button_about_author" layoutX="665.0" layoutY="14.0" mnemonicParsing="false" onAction="#onButtonAuthor" prefHeight="40.0" prefWidth="98.0" text="Об Авторе" />
+   </children>
+</AnchorPane>
